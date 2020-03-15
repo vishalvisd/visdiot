@@ -5,6 +5,8 @@ services:
     build:
       context: https://github.com/vishalvisd/inverteriot.git#master
     container_name: inverteriot_frontend
+    environment:
+      - NODE_ENV=production
 
   inverteriotb:
     build:
