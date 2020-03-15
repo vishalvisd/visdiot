@@ -4,8 +4,9 @@ services:
   inverteriotf:
     build:
       context: https://github.com/vishalvisd/inverteriot.git#master
+    container_name: inverteriot_frontend
 
   inverteriotb:
     build:
       context:  https://github.com/vishalvisd/inverteriot-backend.git#master
-
+    container_name: inverteriot_backend
