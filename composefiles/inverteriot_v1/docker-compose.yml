@@ -16,3 +16,5 @@ services:
     container_name: inverteriot_backend
     expose:
       - "5000"
+    ports:
+      - "5000:5000"
