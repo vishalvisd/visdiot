@@ -14,3 +14,5 @@ services:
     build:
       context:  https://github.com/vishalvisd/inverteriot-backend.git#master
     container_name: inverteriot_backend
+    expose:
+      - "5000"
