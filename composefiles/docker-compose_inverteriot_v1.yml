@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  inverteriotf:
+    build:
+      context: https://github.com/vishalvisd/inverteriot.git#master
+
+  inverteriotb:
+    build:
+      context:  https://github.com/vishalvisd/inverteriot-backend.git#master
+
